@@ -1,0 +1,21 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": "freelancer_not_logged_in.png"
+   },
+   "description": "Brings new Freelancer project notifications to Chrome - You'll never miss any project from Freelancer.com!",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "freelancer_logged_in.png",
+      "48": "freelancer_logo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoKXoyZ6v4iU++6wWuvEepIXQohRbjGzhYjr6PQftO7nc7RB6XaMDh57rTnXJMb9Z07+9+lr5G0EXB4xG92+gENbs37jphrGnXJ0vSrDWDppzkWUsH/Fzs/9ei7cjb83Tg5h4hvYvbnfFICenL4XsktQl6J+ncwvnZCM/naH3tOSa9iEpI3APek9me0tH20H2DyBvDgXZ8CK9u7KLxLvAUOv09sPioeHaMhpB4pWlNh7KP563osL1wITxL+uZpCtfS1BmPz5OvJuU4hURg/3m3yaCjztEXJVpvMPndlvN8zw+AzYiqoUHLi2ypmZrDtXTbrSIGSOAsLI8WMwosSdUowIDAQAB",
+   "manifest_version": 2,
+   "name": "Notifier for Freelancer.com",
+   "permissions": [ "alarms", "tabs", "notifications", "cookies", "webNavigation", "*://*.freelancer.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.1.4"
+}
